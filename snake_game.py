@@ -53,7 +53,7 @@ class SnakeGame:
         self.food = Point(x, y)
         if self.food in self.snake:
             self._place_food()
-        
+        #ham dc gọi tới trong hàm main chính 
     def play_step(self):
         # 1. collect user input
         for event in pygame.event.get():
